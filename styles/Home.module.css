@@ -7,6 +7,35 @@
   min-height: 100vh;
 }
 
+.clist{
+  background-size: 9rem 9rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: rgb(13, 140, 156);
+  border-radius: 16px;
+  margin: 1rem 5rem;
+  padding: 1rem;
+  position: relative;
+  
+}
+
+
+.testin {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 25%;
+  height: 50%;
+  border-radius: 16px;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+  background-size: 200px;
+  
+  
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -97,7 +126,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +154,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
